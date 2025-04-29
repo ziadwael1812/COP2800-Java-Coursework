@@ -1,8 +1,8 @@
 import java.util.Scanner;
 
 public class AverageArray {
-    
-    // Overloaded method for int array
+
+    // Method to calculate average for int array
     public static int average(int[] array) {
         int sum = 0;
         for (int num : array) {
@@ -11,7 +11,7 @@ public class AverageArray {
         return sum / array.length;
     }
 
-    // Overloaded method for double array
+    // Method to calculate average for double array
     public static double average(double[] array) {
         double sum = 0;
         for (double num : array) {
@@ -20,7 +20,6 @@ public class AverageArray {
         return sum / array.length;
     }
 
-    // Main method
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         double[] numbers = new double[10];
