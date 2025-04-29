@@ -1,10 +1,10 @@
 import java.util.Scanner;
 
-public class TestFan {
+public class TestIFan {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        Fan userFan = new Fan();
+        IFan userFan = new IFan();
 
         // Ask user to set up their fan
         System.out.println("Customize your fan!");

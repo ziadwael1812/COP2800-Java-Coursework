@@ -1,4 +1,4 @@
-public class Fan {
+public class IFan {
     // Constants
     public static final int SLOW = 1;
     public static final int MEDIUM = 2;
@@ -11,7 +11,7 @@ public class Fan {
     private String color;
 
     // No-arg constructor
-    public Fan() {
+    public IFan() {
         speed = SLOW;
         on = false;
         radius = 5;
