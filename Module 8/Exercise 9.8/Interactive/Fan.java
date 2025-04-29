@@ -1,4 +1,4 @@
-public class FanInteractive {
+public class Fan {
     // Constants
     public static final int SLOW = 1;
     public static final int MEDIUM = 2;

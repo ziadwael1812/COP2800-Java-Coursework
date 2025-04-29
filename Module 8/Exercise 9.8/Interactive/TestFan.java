@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class TestFanInteractive {
+public class TestFan {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
